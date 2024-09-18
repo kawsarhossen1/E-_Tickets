@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-ticket</title>
+
+    <!-- daisyUI tailwind link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/759f79f9d1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="font-poopines">
+    <main>
+        <div class="navbar bg-base-100 bg-purple-50">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <a class="font-bold text-[#030712] text-4xl px-32">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex ">
+                <ul class="menu menu-horizontal  text-xl mx-12">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end px-32">
+                <a class="btn font-bold text-xl bg-green-200 text-[#1DD100]"> <i
+                        class="fa-solid fa-van-shuttle"></i>Bus</a>
+            </div>
+        </div>
+
+        <!-- Hero section -->
+
+        <section class="mt-5 pl-20 pr-16  mb-8 ">
+            <div class="hero  min-h-screen bg-[url(images/banner.png)]">
+                <div class="hero-overlay"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="">
+                        <h1 class="mb-5 text-6xl font-bold text-white">End-to-End Travel with</h1>
+                        <a class="text-green-600 font-bold text-6xl" href="">P Paribahan</a>
+                        <p class="mb-5 text-white mt-5 ml-20 max-w-md justify-center items-center text-[18px]">
+                            Yes, you can run unit tests and view the results directly within the app. The integrated
+                            testing features allow for a streamlined.
+                        </p>
+                        <button class=" mr-10 btn font-bold bg-[#1DD100]">Guby Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class=" flex -mt-24 justify-center items-center gap-8">
+            <div class="card card-side bg-base-100 shadow-xl border-b-4 border-b-green-500">
+                <figure class="pl-4">
+                    <img src="images/people.png" alt="imageas" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-bold text-4xl">500K+</h2>
+                    <p>Registered users</p>
+                </div>
+            </div>
+            <div class="card card-side bg-base-100 shadow-xl border-b-4 border-b-green-500">
+                <figure class="pl-4">
+                    <img src="images/ticket-cupon.png" alt="imageas" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-bold text-4xl">1.7 lacks</h2>
+                    <p>Tickets sold</p>
+                </div>
+            </div>
+            <div class="card card-side bg-base-100 shadow-xl border-b-4 border-b-green-500">
+                <figure class="pl-4">
+                    <img src="images/stoppage.png" alt="imageas" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-bold text-4xl">80K+</h2>
+                    <p>Rental partners</p>
+                </div>
+            </div>
+        </section>
+
+        <h1 class="font-bold text-center text-[40px] pt-[120px] pb-12">Best offers for you</h1>
+
+        <section class="flex gap-8 px-[135px]">
+
+
+            <div
+                class="flex bg-[#FFBF0F] text-center justify-center items-center  container mx-auto shadow-none rounded-lg ">
+                <div>
+                    <h1 class="font-bold text-[40px]">15% OFF</h1>
+                    <h4 class="font-bold text-[20px]">on your next purchase</h4>
+                    <p class="text-[18px]">use by January 2024</p>
+                </div>
+                <div>
+                    <img src="images/cupon-devider.png" alt="">
+                </div>
+                <div>
+                    <h1 class="font-bold text-[32px]">NEW15</h1>
+                    <p class="text-[20px]">Coupon Code</p>
+                </div>
+
+            </div>
+
+            <div
+                class="flex bg-[#F78C9C] text-center justify-center items-center  container mx-auto shadow-none rounded-lg">
+                <div class="pr-[51px]">
+                    <h1 class="font-bold text-[40px]">20% OFF</h1>
+                    <h4 class="font-bold text-[20px]">on your next purchase</h4>
+                    <p class="text-[18px]">use by January 2024</p>
+                </div>
+                <div>
+                    <img src="images/cupon-devider.png" alt="">
+                </div>
+                <div>
+                    <h1 class="font-bold text-[32px]">Couple 20</h1>
+                    <p class="text-[20px]">Coupon Code</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="pt-[62px] text-center pb-[120px]">
+            <button class="btn  bg-white  border-green-500 text-[#1DD100] font-bold text-[20px]">See All Offers</button>
+        </div>
+
+        <section class="bg-[#F7F8F8] rounded-lg border-t-4 border-t-green-400 ">
+
+            <div class="text-center pt-[120px]">
+                <h1 class="font-bold text-[40px] pb-[24px]">P.H Paribahan</h1>
+                <p class="text-xl">Yes, you can run unit tests and view the results directly within the app. The
+                    integrated testing features allow for a streamlined .</p>
+            </div>
+            <div>
+                <div class="flex absolute">
+                    <div>
+                        <img src="images/bus-logo.png" alt="">
+                    </div>
+                    <h1>Greenline Paribahan</h1>
+                    <p>Coach-009-WEB ! AC_Business</p>
+                    <div class="">
+                        <button class=" btn bg-[url(images/seat-green.png)] bg-no-repeat">40 Seats left</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
